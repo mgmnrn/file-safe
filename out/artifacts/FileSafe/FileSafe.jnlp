@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FileSafe.jnlp">
+  <information>
+    <title>FileSafe</title>
+    <vendor>Unknown</vendor>
+    <description>FileSafe</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FileSafe.jar" size="14922" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\jfoenix-8.0.8.jar" size="2708772" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="application.Main"  name="FileSafe" />
+  <update check="background"/>
+</jnlp>

@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="FileSafe">
+    <output-path>$PROJECT_DIR$/out/artifacts/FileSafe</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="application.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="FileSafe" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="FileSafe.jar">
+        <element id="module-output" name="FileSafe" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="application" name="fontawesomefx-8.9" />
+        <element id="library" level="application" name="jfoenix-8.0.8" />
+      </element>
+    </root>
+  </artifact>
+</component>
